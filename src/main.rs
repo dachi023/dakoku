@@ -81,7 +81,7 @@ enum Command {
 enum LabelAction {
     /// リポジトリにラベルを設定する
     Set {
-        /// クライアント名や案件名
+        /// リポジトリに付けるラベル
         label: String,
         /// 対象のリポジトリ (既定はカレント)
         #[arg(long, value_name = "PATH")]
